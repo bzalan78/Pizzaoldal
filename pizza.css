@@ -7,12 +7,14 @@ header{
     
 }
 h1{
-    
-    
+    margin-top: 5%;
+    margin-left: 5%;
 }
 #menu{
-   
-   
+   float: right;
+   margin-left: 55%;
+   margin-right: 5%;
+   margin-top: 5%;
    
 }
 a{
