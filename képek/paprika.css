@@ -1,0 +1,107 @@
+body{
+    background-color:#FFEFD5 ;
+    color: #8B4513 ;
+}
+#fejlec{
+    width: 80%;
+    height: 90pt;
+    margin:10pt,auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(szines.jpg);
+    background-size: cover;
+    padding-top: 30px;
+}
+h1{
+   margin: 10pt;
+   color: black;
+}
+#fajtak{
+    margin-left: 10%;
+    float:left;
+   
+}
+ul{
+    list-style-image: url(chili-pepper-icon.gif);
+    
+    
+}
+li{
+    background-color: white;
+    border: rgb(0, 162, 255) solid;
+    border-width: 2px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    padding-left: 4px;
+    
+}
+a{
+    text-decoration: none;
+}
+#bemutatasa{
+    float: right;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+#csiposseg{
+    float: right;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+table{
+    margin-top: 10%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+  
+}
+table, td{
+ 
+    padding:1%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.ert{
+    text-align: center;
+    font-weight: bold;
+}
+#null{
+background-color: rgb(124, 252, 0);
+}
+#otsz{
+    background-color:#ffffcc;
+}
+#ezot{
+    background-color: rgb(240, 128, 128);
+}
+#otk{
+    background-color: rgb(207, 97, 252)
+}
+.papr{
+    font-weight: bold;
+}
+.hea{
+    padding: 3%;
+}
+@media screen and (max-width:1200px) {
+    #fajtak{
+       
+        margin-right: 10%;
+        float: none;
+        margin-left: 10%;
+
+    }
+    #bemutatasa{
+        display: flex;
+        justify-content: center;
+        float: none;
+    }
+    #csiposseg{
+        display: flex;
+        justify-content: center;
+        float: none;
+}}

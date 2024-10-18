@@ -7,21 +7,32 @@ header{
     
 }
 h1{
-    margin-top: 3%;
+    margin-top: 20px;
     margin-left: 5%;
+    float: left;
+    width: 60%;
+    
 }
 #menu{
+   
+    margin-top: 20px;
    float: right;
-   margin-left: 55%;
-   margin-right: 5%;
-   margin-top: 3%;
-   justify-content: space-between;
-   display: block;
+   margin-left: 10%;
+   
+   
+   
 }
 #hamb{
     width: 50px;
     height: 50px;
-    margin-top: 60%;
+    
+    visibility: hidden;
+    float: right;
+    margin-right: 5%;
+    background-image: url(képek/clipart365828.png);
+    background-size: cover;
+    background-color: transparent;
+    border-color: transparent;
     
 }
 a{
@@ -34,6 +45,11 @@ a{
 @media only screen and (max-width: 970px){
     #menu{
         visibility: hidden;
+        
+    }
+    #hamb{
+        
+        visibility:visible;
         
     }
 }
