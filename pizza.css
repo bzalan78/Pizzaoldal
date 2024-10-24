@@ -92,6 +92,11 @@ h3{
     color: grey;
     font-size: medium;
 }
+.gombok{
+    border: 1px solid white;
+    padding-top: px;
+    padding-bottom: 5px;
+}
 
 @media only screen and (max-width: 869px){
     #menu{
