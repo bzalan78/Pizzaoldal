@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(16, 16,16);
 }
 header{
     background-image: url(képek/fejlec.jpg);
@@ -47,20 +47,23 @@ a{
     
 }
 .text{
-    margin-left: 20%;
+    
     margin-right: auto;
     margin-top: 3px;
     margin-bottom: 3px;
+    text-align: right;
 }
 #text2{
     float: right;
     color: white;
-    margin-right: 30%;
+    margin-right: 20%;
     margin-top: 25px;
+    width: 30%;
+    margin-left: 5%;
 }
 #tortenet{
     background-color: rgb(34, 34, 34);
-    height: 200px;
+    height: 300px;
     color: white;
     
 }
@@ -70,11 +73,27 @@ a{
     margin-left: 15%;
     margin-top: 40px;
 }
-h3{
-    text-align: right;
-    
+#mennu{
+    color: white;
 }
-@media only screen and (max-width: 970px){
+.menufr{
+    text-align: center;
+}
+#szeless2{
+    text-align: center;
+}
+#text3{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    color: grey;
+    font-size: medium;
+}
+
+@media only screen and (max-width: 869px){
     #menu{
         visibility: hidden;
         
@@ -83,6 +102,9 @@ h3{
         
         visibility:visible;
         
+    }
+    #tortenet{
+        height: 400px;
     }
 }
     
