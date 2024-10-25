@@ -75,6 +75,8 @@ a{
 }
 #mennu{
     color: white;
+    height: 300px;
+
 }
 .menufr{
     text-align: center;
@@ -94,11 +96,19 @@ h3{
 }
 .gombok{
     border: 1px solid white;
-    padding-top: px;
-    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+#gombdiv{
+    margin-top: 40px;
 }
 
-@media only screen and (max-width: 869px){
+@media only screen and (max-width: 880px){
     #menu{
         visibility: hidden;
         
@@ -110,6 +120,24 @@ h3{
     }
     #tortenet{
         height: 400px;
+    }
+}
+@media only screen and (max-width: 652px){
+    #menu{
+        visibility: hidden;
+        
+    }
+    #hamb{
+        
+        visibility:visible;
+        
+    }
+    #tortenet{
+        height: 400px;
+    }
+    #text2{
+        margin-right: 10%;
+        width: 45%;
     }
 }
     
