@@ -158,44 +158,70 @@ h3{
     
 }
 #info{
-    background-color: black;
+    background-color: rgb(16, 16,16);
     height: 500px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .nyitva{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 3px;
     text-align: left;
+    color: white;
 }
 #szeless4{
     text-align: left;
+    float: left;
+    width: 30%;
+    margin-right: 5%;
 }
 .text5{
     margin-right: auto;
     
     margin-bottom: 3px;
     text-align: right;
-    width: 30%;
+    width: 100%;
     float: left;
     
     margin-left: 2%;
 }
 #text6{
-    margin-left: auto;
-    color: white;
-    margin-right: auto;
-    margin-top: 15px;
+    
+    color: grey;
     width: 30%;
     
 }
+#text7{
+    color: grey;
+}
 #fater{
     float: right;
-    width: 10%;
+    width: 30%;
+    margin-left: 5%;
 }
 #fenseg{
     float: right;
-    
+}
+#foglalj{
+    color: white;
+    text-decoration: underline;
+}
+#hr{
+    width: 90%;
+}
+footer{
+    background-color: rgb(16, 16,16);
+}
+#text7{
+    text-align: center;
+    color:grey;
+    margin-top: 40px;
+}
+#boki{
+    color:grey;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 880px){
