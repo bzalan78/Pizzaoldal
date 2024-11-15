@@ -89,7 +89,7 @@ a{
 }
 #szeless3{
     text-align: center;
-    
+    height: 900px;
 }
 #text3{
     text-align: center;
@@ -120,60 +120,64 @@ h3{
 }
 #marg{
     margin-top: 70px;
+    
 }
 .ajan{
     color: grey;
 }
 #kepek{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    height: 300px;
-    
-    
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.kep{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-
-   
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
     
 }
-
 #fopizza{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    background-image: url(képek/fejlec.jpg);
+    background-size: cover;
+    
 
     grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
-#kebab{
-    object-fit: cover;
-    grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 6;
 }
+#kebab{
+    background-image: url(képek/kebab.jpg);
+    background-size: cover;
+    
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
 
 #moki{
-    object-fit: cover;
+    background-image: url(képek/zold.jpg);
+    background-size: cover;
+    
     grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 8;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 10;
 }
 #nagypizza{
-   
+    background-image: url(képek/bigpiz.jpg);
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 10;
 }
 #smekleves{
-   
+    background-image: url(képek/leves.jpg);
+    background-size: cover;
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 10;
 }
 #info{
     background-color: rgb(16, 16,16);
@@ -214,6 +218,7 @@ h3{
 #text7{
     color: grey;
     text-align: left;
+    padding-right: 15%;
 }
 #fater{
     float: right;
