@@ -7,6 +7,7 @@ header{
     height: 400px;
     color: white;
     display:flex;
+    background-position: 0px,150px;
     
 }
 h1{
@@ -143,6 +144,8 @@ h3{
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 6;
+    display: flex;
+  height: 100%;
 }
 #kebab{
     background-image: url(képek/kebab.jpg);
@@ -152,6 +155,9 @@ h3{
     grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 7;
+    display: flex;
+  height: 100%;
+  background-position: -200px;
 }
 
 #moki{
@@ -162,6 +168,9 @@ h3{
     grid-column-end: 4;
     grid-row-start: 6;
     grid-row-end: 10;
+    display: flex;
+  height: 100%;
+  background-position: -50px;
 }
 #nagypizza{
     background-image: url(képek/bigpiz.jpg);
@@ -170,6 +179,9 @@ h3{
     grid-column-end: 7;
     grid-row-start: 6;
     grid-row-end: 10;
+    display: flex;
+  height: 100%;
+  background-position: -70px;
 }
 #smekleves{
     background-image: url(képek/leves.jpg);
@@ -178,6 +190,18 @@ h3{
     grid-column-end: 10;
     grid-row-start: 7;
     grid-row-end: 10;
+    display: flex;
+  height: 100%;
+  background-position: 0px,40px;
+    
+}
+.imgtext{
+    display: inline-block;
+  align-self: flex-end;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: large;
+  font-style: italic;
 }
 #info{
     background-color: rgb(16, 16,16);
@@ -229,6 +253,8 @@ h3{
 #fenseg{
     float: right;
     text-align: left;
+    padding-right: 15%;
+    width: 85%;
 }
 #foglalj{
     color: white;
@@ -240,7 +266,7 @@ h3{
 footer{
     background-color: rgb(16, 16,16);
 }
-#text7{
+#text8{
     text-align: center;
     color:grey;
     margin-top: 40px;
