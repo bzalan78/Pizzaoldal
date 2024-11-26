@@ -103,6 +103,8 @@ h3{
     font-size: medium;
 }
 .gombok{
+    
+    display: inline;
     border: 1px solid white;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -110,11 +112,18 @@ h3{
     padding-right: 3%;
     margin-left: 2%;
     margin-right: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 #gombdiv{
     margin-top: 40px;
     margin-bottom: 70px;
+    
+    
+    
+    gap: 10px;
+    
 }
 #spec{
     background-color: rgb(34, 34, 34);
@@ -307,6 +316,20 @@ footer{
         margin-right: 10%;
         width: 45%;
     }
+}
+@media only screen and (max-width: 470px){
+   
+    #tortenet{
+        height: 480px;
+    }
+    #text2{
+        margin-right: 7%;
+        width: 45%;
+    }
+    .gombok{
+        display: block;
+    }
+    
 }
 @media only screen and (max-width: 1204px){
     #menu{
