@@ -221,6 +221,7 @@ h3{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 15px;
 }
 .nyitva{
     margin-right: auto;
@@ -236,11 +237,11 @@ h3{
     margin-right: 5%;
 }
 .text5{
-    margin-right: auto;
     
+    margin-left: 15%;
     margin-bottom: 3px;
     text-align: right;
-    width: 200px;
+    width: 20%;
     float: left;
     
     
@@ -251,17 +252,19 @@ h3{
     width: 30%;
     
     
+    
 }
 #text7{
     color: grey;
     text-align: left;
-    padding-right: 15%;
+    width: 90%;
 }
 #fater{
-    float: right;
-    width: 30%;
-    margin-left: 5%;
+    
+    width: 25%;
+    
     margin-top: 5px;
+    margin-right: 5%;
     
 }
 #fenseg{
@@ -269,6 +272,7 @@ h3{
     text-align: left;
     padding-right: 15%;
     width: 85%;
+   margin-left: 30px;
 }
 #foglalj{
     color: white;
@@ -330,11 +334,12 @@ footer{
     }
     #szeless4{
         
-        width: 400px;
+        width: 300px;
         
     }
     .text5{
         width: 100%;
+        margin-left: 1px;
     }
     #text7{
         margin-left:2% ;
@@ -440,6 +445,9 @@ footer{
     }
     header{
         background-position: -80px;
+    }
+    #info{
+        
     }
 }
 @media only screen and (max-width: 1204px){
