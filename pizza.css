@@ -21,10 +21,13 @@ h1{
 #menu{
    
     margin-top: 20px;
+    margin-right: 5%;
    float: right;
    margin-left: 10%;
    text-align: justify;
    width: 40%;
+   display: flex;
+   justify-content: right;
    
    
    
