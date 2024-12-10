@@ -95,6 +95,7 @@ a{
 #szeless3{
     text-align: center;
     height: 800px;
+    padding-top: 1px;
 }
 #text3{
     text-align: center;
@@ -225,6 +226,8 @@ h3{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 15px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .nyitva{
     margin-right: auto;
