@@ -72,6 +72,7 @@ a{
     background-color: rgb(34, 34, 34);
     height: 300px;
     color: white;
+    padding-top: 1%;
     
 }
 #szeless{
@@ -465,6 +466,11 @@ footer{
 @media only screen and (max-width: 972px){
     #menu{
        width: 75%;
+    }
+}
+@media only screen and (min-width: 1480px){
+    #szeless3{
+       height: 1250px;
     }
 }
     
