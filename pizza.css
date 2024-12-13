@@ -25,9 +25,10 @@ h1{
    float: right;
    margin-left: 10%;
    text-align: justify;
-   width: 40%;
+   width: 20%;
    display: flex;
    justify-content: right;
+   gap: 10px;
    
    
    
@@ -50,6 +51,15 @@ a{
     text-decoration: none;
     
     
+    
+    
+    
+}
+.linkk{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    height: 20px;
     
 }
 .text{
@@ -300,7 +310,18 @@ footer{
     color:grey;
     text-decoration: underline;
 }
+@media only screen and (max-width: 880px){
 
+
+}
+@media only screen and (max-width: 972px){
+    #menu{
+       width: 75%;
+    }
+    #tortenet{
+        height: 440px;
+    }
+}
 @media only screen and (max-width: 880px){
     #menu{
         visibility: hidden;
@@ -312,7 +333,10 @@ footer{
         
     }
     #tortenet{
-        height: 400px;
+        height: 450px;
+    }
+    #szeless3{
+        height:780px;
     }
 }
 @media only screen and (max-width: 652px){
@@ -431,14 +455,14 @@ footer{
         
     }
     #szeless3{
-        height: 1900px;
+        height: 1950px;
     }
 
 }
 @media only screen and (max-width: 470px){
    
     #tortenet{
-        height: 480px;
+        height: 420px;
     }
     #text2{
         margin-right: 7%;
@@ -451,20 +475,32 @@ footer{
         height: 1600px;
     }
     header{
-        background-position: -80px;
+        background-size: 200%;
+        background-position: -160px;
+        height: 300px;
     }
-    #info{
-        
+    #text3{
+        width: 90%;
     }
+    #szeless{
+        margin-right: 20%;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .text{
+        text-align: right;
+    }
+    #text2{
+        float:left;
+        margin-left:10% ;
+        width: 80%;
+    }
+    
 }
 @media only screen and (max-width: 1204px){
     #menu{
        width: 60%;
     }
 }
-@media only screen and (max-width: 972px){
-    #menu{
-       width: 75%;
-    }
-}
+
     
