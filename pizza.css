@@ -21,7 +21,7 @@ h1{
 #menu{
    
     margin-top: 20px;
-    margin-right: 5%;
+    
    float: right;
    margin-left: 10%;
    text-align: justify;
@@ -33,27 +33,11 @@ h1{
    
    
 }
-#hamb{
-    width: 50px;
-    height: 50px;
-    
-    visibility: hidden;
-    float: right;
-    margin-right: 5%;
-    background-image: url(képek/clipart365828.png);
-    background-size: cover;
-    background-color: transparent;
-    border-color: transparent;
-    
-}
+
 a{
     color: white;
     text-decoration: none;
-    
-    
-    
-    
-    
+
 }
 .linkk{
     color: white;
@@ -61,6 +45,27 @@ a{
     margin: 0px;
     height: 20px;
     
+}
+#hambmendiv{
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    
+}
+#hamb{
+    width: 40px;
+    height: 40px;
+    
+    visibility: hidden;
+    
+    
+    background-image: url(képek/clipart365828.png);
+    background-size: cover;
+    background-color: transparent;
+    border-color: transparent;
 }
 .text{
     
@@ -311,10 +316,12 @@ footer{
     color:grey;
     text-decoration: underline;
 }
-@media only screen and (max-width: 880px){
-
-
+@media only screen and (max-width: 1204px){
+    #menu{
+       width: 60%;
+    }
 }
+
 @media only screen and (max-width: 972px){
     #menu{
        width: 75%;
@@ -328,9 +335,17 @@ footer{
         visibility: hidden;
         
     }
+    #hambmendiv{
+        
+        visibility: hidden;
+        float: right;
+        margin-right: 5%;
+        
+    }
     #hamb{
         
         visibility:visible;
+        
         
     }
     #tortenet{
@@ -340,16 +355,22 @@ footer{
         height:780px;
     }
 }
-@media only screen and (max-width: 652px){
+@media only screen and (max-width: 750px){
     #menu{
+        width: 20%;
+        
+    }
+    .linkk{
+        width: 10%;
+    }
+    #hambmendiv{
+        
         visibility: hidden;
-        
-    }
-    #hamb{
-        
-        visibility:visible;
-        
-    }
+        float: right;
+        margin-right: 5%;}
+}
+@media only screen and (max-width: 652px){
+   
     #tortenet{
         height: 400px;
     }
@@ -498,10 +519,6 @@ footer{
     }
     
 }
-@media only screen and (max-width: 1204px){
-    #menu{
-       width: 60%;
-    }
-}
+
 
     
