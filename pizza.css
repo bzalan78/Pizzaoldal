@@ -67,6 +67,7 @@ a{
     background-color: transparent;
     border-color: transparent;
 }
+
 .text{
     
     margin-right: auto;
@@ -371,6 +372,9 @@ footer{
 }
 @media only screen and (max-width: 652px){
    
+    #fenseg{
+        padding-right: 13%;
+    }
     #tortenet{
         height: 400px;
     }
@@ -400,6 +404,7 @@ footer{
     }
     #fater{
         width: 100%;
+        margin-left: 2%;
     }
     #kepek{
         display: grid;
@@ -516,6 +521,9 @@ footer{
         float:left;
         margin-left:10% ;
         width: 80%;
+    }
+    #fenseg{
+        margin-left: 2%;
     }
     
 }
