@@ -1,5 +1,6 @@
 body{
     background-color: rgb(16, 16,16);
+    margin: 0px;
 }
 header{
     background-image: url(képek/fejlec.jpg);
@@ -528,10 +529,10 @@ footer{
     #text6{
         padding-right: 4%;
     }
-    .text5{
+   /* .text5{
 
         
-    }
+    }*/
     
 }
 
