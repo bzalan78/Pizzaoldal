@@ -77,9 +77,16 @@ a{
     text-align: right;
     
 }
+.textr{
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: right;
+    color: grey;
+}
 #text2{
     float: right;
-    color: white;
+    color: lightgrey;
     margin-right: 20%;
     margin-top: 25px;
     width: 30%;
@@ -90,6 +97,10 @@ a{
     height: 300px;
     color: white;
     padding-top: 1%;
+    
+}
+.szurke{
+    color: lightgrey;
     
 }
 #szeless{
@@ -129,7 +140,7 @@ h3{
 .gombok{
     
     display: inline;
-    border: 1px solid white;
+    border: 1px solid lightgrey;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 3%;
@@ -266,7 +277,7 @@ h3{
     margin-left: 15%;
     margin-bottom: 3px;
     text-align: right;
-    width: 20%;
+    width: 80%;
     float: left;
     
     
@@ -306,6 +317,9 @@ h3{
 #hr{
     width: 90%;
 }
+#lathatatlan{
+    visibility: hidden;
+}
 footer{
     background-color: rgb(16, 16,16);
 }
@@ -322,6 +336,7 @@ footer{
     #menu{
        width: 60%;
     }
+    
 }
 
 @media only screen and (max-width: 972px){
@@ -393,6 +408,7 @@ footer{
     #szeless4{
         
         width: 300px;
+        
         
     }
     .text5{
